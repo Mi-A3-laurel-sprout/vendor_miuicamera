@@ -13,3 +13,7 @@
 # limitations under the License.
 
 $(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
+
+# Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    vendor/miuicamera/sepolicy/private
